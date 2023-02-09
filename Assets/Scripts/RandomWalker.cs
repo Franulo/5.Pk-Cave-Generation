@@ -2,7 +2,7 @@ using Enums;
 using UnityEngine;
 using Utils;
 
-public class Walker : CaveMonoBehaviour
+public class RandomWalker : CaveMonoBehaviour
 {
     [SerializeField] int _cellsToRemove;
     [SerializeField] int _safeWalls;
